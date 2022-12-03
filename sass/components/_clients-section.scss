@@ -7,10 +7,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 30px;
   &__link {
     display: flex;
     justify-content: center;
+    
+    
+
     align-items: center;
     width: 170px;
     height: 92px;
