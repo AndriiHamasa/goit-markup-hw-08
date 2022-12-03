@@ -896,7 +896,13 @@ ul {
 }
 
 .work-page {
+  display: none;
   padding-bottom: 94px;
+}
+@media screen and (min-width: 1200px) {
+  .work-page {
+    display: block;
+  }
 }
 
 .work-list {
