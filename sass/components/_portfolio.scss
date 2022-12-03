@@ -1,0 +1,20 @@
+.portfolio-page {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.btn-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.btn-list > li + li {
+  margin-left: 8px;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-basis: calc((100% - 30px * 2) / 3);*/
+    /*justify-content: space-between;*/
+    margin-top: calc(-1 * var(--card-set-gap));
+    margin-left: calc(-1 * var(--card-set-gap));
+  }
