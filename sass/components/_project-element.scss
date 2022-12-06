@@ -4,9 +4,12 @@
 
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 2 - var(--card-set-gap));
+    
   }
 
-  // flex-basis: calc(100% / 3 - var(--card-set-gap));
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 3 - var(--card-set-gap));
+  }
 }
 .project-link {
   display: block;
@@ -73,10 +76,6 @@
   line-height: 2;
 
   letter-spacing: 0.06em;
-
-  
-
-  
 
   color: var(--primary-title-color);
 }
