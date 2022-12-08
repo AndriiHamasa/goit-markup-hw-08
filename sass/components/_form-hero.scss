@@ -2,18 +2,35 @@
   margin-bottom: 12px;
 
   font-size: 20px;
-  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--primary-title-color);
   font-weight: 700;
+
+  @media screen and (min-width: 480px) {
+    line-height: 1.5;
+  }
+
+  @media screen and (min-width: 1200px) {
+    line-height: 1.15;
+  }
 }
 .modal-group-name,
 .modal-group-phone,
 .modal-group-mail {
   display: block;
   margin-bottom: 10px;
+}
+
+.modal-group-name,
+.modal-group-phone,
+.modal-group-mail,
+.modal-group-comment {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
 }
 
 .modal-group-name,
@@ -50,6 +67,17 @@
 .hero-user-mail:focus + .modal-name-icon {
   fill: var(--accent-color);
 }
+
+.hero-comment {
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
+}
+
 .modal-pole {
   position: relative;
 }
@@ -113,6 +141,17 @@
 
 .text-agreement {
   display: inline-block;
+
+  @media screen and (min-width: 480px) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+  }
 }
 .agreement-link {
   color: var(--accent-color);

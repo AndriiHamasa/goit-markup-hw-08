@@ -22,11 +22,24 @@
 }
 
 .contact-header {
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
+  @media screen and (min-width: 480px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
 
   &__item {
     color: var(--primary-text-color);
