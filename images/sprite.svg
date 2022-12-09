@@ -94,5 +94,8 @@
     <symbol id="icon-menu_burger_open" viewBox="0 0 32 32">
       <path d="M6.4 11.733V9.6h19.2v2.133H6.4zm0 5.334h19.2v-2.133H6.4v2.133zm0 5.333h19.2v-2.133H6.4V22.4z"/>
     </symbol>
+    <symbol id="icon-sicial-line" viewBox="0 0 1 32">
+      <path d="m12 20 4-2L30 4l-2-2-14 14-2 4zm-2.959 7.097c-.989-2.085-2.052-3.149-4.137-4.137l3.097-8.525 4-2.435 12-12h-6l-12 12-6 20 20-6 12-12V8l-12 12-2.435 4z"/>
+    </symbol>
   </defs>
 </svg>
